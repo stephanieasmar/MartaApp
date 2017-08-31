@@ -2,4 +2,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: black;
+}
+
+.marta {
+  background-image: url('./marta.png');
+  opacity: .3;
 }

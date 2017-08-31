@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './marta.png';
 import './App.css';
 
 import MartaDash from './MartaDash.js';
@@ -10,9 +10,11 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Welcome to MARTA</h2>
         </div>
-        <MartaDash />
+        <div className="marta">
+          <MartaDash />
+        </div>
       </div>
     );
   }

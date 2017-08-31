@@ -56,7 +56,6 @@ class MartaDashboard extends Component {
 
     return (
       <div>
-        <p>Marta: It's smarta (but not really)</p>
         <div>
           {martaOutput}
         </div>
